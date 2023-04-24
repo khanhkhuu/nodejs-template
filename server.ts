@@ -16,7 +16,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 app.get("/", (req: Request, res: Response) => {
   res.json({
-    status: 'runring'
+    status: 'runring.'
   });
 });
 
